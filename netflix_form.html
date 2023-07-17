@@ -4,91 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>netflix</title>
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
-    <h1>Movie ticket online booking</h1>
-    <div>
-     
-      <img
-        src="https://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/01/16121416/online-movie-ticket-booking-app_development.png"
-        alt=""
-        width="500px"
-        height="300px"
-      />
+    <div class="first"><h1>Movie ticket online booking</h1></div>
+    <div class="container">
+      <form>
+        <label
+          ><b><em>Movie Title</em></b></label
+        >
+        <select>
+          <option>JAWAAN</option>
+          <option>OPPENHAIMMER</option>
+          <option>MISSION IMPOSSIBLE</option>
+          <option>BARBIE</option>
+          <option>JARA HATKE JARA BACHKE</option>
+        </select>
+
+        <label
+          ><b><em>First name</em></b></label
+        >
+        <input type="text" placeholder="e.g. Kaustubh" />
+
+        <label
+          ><b><em>Last name</em></b></label
+        >
+        <input type="text" placeholder="e.g. Singh" /><br /><br />
+
+        <label
+          ><b><em>Phone Number</em></b></label
+        >
+        <input type="tel" placeholder="e.g.  +91 8769501234" /><br /><br />
+
+        <label
+          ><b><em>Date you want to attend</em></b></label
+        >
+        <input type="date" /><br /><br />
+
+        <label
+          ><b><em>Time</em></b></label
+        >
+        <input type="time" /><br /><br />
+
+        <label
+          ><b><em>Address</em></b></label
+        >
+        <textarea
+          class="add"
+          cols="60"
+          rows="1"
+          placeholder="enter your address"
+        ></textarea
+        ><br /><br />
+
+        <label
+          ><b><em>State</em></b></label
+        >
+        <select class="city">
+          <option>uttar pradesh</option>
+          <option>uttarakhand</option>
+          <option>maharashtra</option>
+          <option>bengaluru</option>
+        </select>
+        <label
+          ><b><em>City</em></b></label
+        >
+        <select class="city">
+          <option>Lucknow</option>
+          <option>kanpur</option>
+          <option>noida</option>
+          <option>varanasi</option>
+        </select>
+        <label
+          ><b><em>Zip code</em></b></label
+        >
+        <input
+          type="number"
+          class="city"
+          placeholder="e.g. 2202461"
+        /><br /><br />
+        <label
+          ><b><em>Row</em></b></label
+        >
+        <input type="number" class="num" />
+        <label
+          ><b><em>Seat number</em></b></label
+        >
+        <input type="number" class="num" /><br /><br />
+        <label
+          ><b><em>Payment</em></b></label
+        >
+        <input type="radio" name="pay" /><b>UPI TRANSACTION</b>
+        <input type="radio" name="pay" /><b>VISA</b> <br /><br />
+
+        <button id="submit">BOOK</button>
+      </form>
     </div>
-    <form>
-      <label
-        ><b><em>Movie Title</em></b></label
-      >
-      <input type="text" /><br /><br />
-
-      <label
-        ><b><em>First name</em></b></label
-      >
-      <input type="text" />
-
-      <label
-        ><b><em>Last name</em></b></label
-      >
-      <input type="text" /><br /><br />
-
-      <label
-        ><b><em>Phone Number</em></b></label
-      >
-      +91 <input type="tel" /><br /><br />
-
-      <label
-        ><b><em>Date you want to attend</em></b></label
-      >
-      <input type="date" /><br /><br />
-
-      <label
-        ><b><em>Time</em></b></label
-      >
-      <input type="time" /><br /><br />
-
-      <label
-        ><b><em>Address</em></b></label
-      >
-      <textarea cols="60" rows="1"></textarea><br /><br />
-
-      <label
-        ><b><em>State</em></b></label
-      >
-      <select>
-        <option>uttar pradesh</option>
-        <option>uttarakhand</option>
-        <option>maharashtra</option>
-        <option>bengaluru</option>
-      </select>
-      <label
-        ><b><em>City</em></b></label
-      >
-      <select>
-        <option>Lucknow</option>
-        <option>kanpur</option>
-        <option>noida</option>
-        <option>varanasi</option>
-      </select>
-      <label
-        ><b><em>Zip code</em></b></label
-      >
-      <input type="number" /><br /><br />
-      <label
-        ><b><em>Row</em></b></label
-      >
-      <input type="number" />
-      <label
-        ><b><em>Seat number</em></b></label
-      >
-      <input type="number" /><br /><br />
-      <label
-        ><b><em>Payment</em></b></label
-      >
-      <input type="radio" name="pay" />upi transactions
-      <input type="radio" name="pay" />cards <br /><br />
-
-      <button>BOOK</button>
-    </form>
   </body>
 </html>

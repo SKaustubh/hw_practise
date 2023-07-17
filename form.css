@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/01/16121416/online-movie-ticket-booking-app_development.png");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 10px;
+  background-color: rgb(55 135 224 / 44%);
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(117, 157, 179, 0.166);
+  width: 100%;
+}
+.container {
+  align-items: center;
+  padding: 30px 40px 30px 40px;
+  background-color: #689bddf7;
+  border-radius: 4px;
+  margin: 50px auto;
+  border: 2px solid rgba(87, 144, 166, 0.774);
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+input[type="time"],
+select,
+radio,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin: 10px;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+#submit {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
